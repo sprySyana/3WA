@@ -4,3 +4,10 @@
 Languages used : HTML, CSS, JS and PHP
 
 Add-on : Bootstrap and POO
+## Repository structuration
+- HTML branch
+  - all the HTML exercices and projects files with their CSS
+- JS branch
+  - all the HTML+JS exercices and projects files with their CSS
+- PHP branch
+  - will be added and updated alongside the PHP  lessons

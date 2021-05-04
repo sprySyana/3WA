@@ -11,3 +11,5 @@ Add-on : Bootstrap and POO
   - all the HTML+JS exercices and projects files with their CSS
 - PHP branch
   - will be added and updated alongside the PHP  lessons
+- Img branch
+  - all the images used in the differents web pages

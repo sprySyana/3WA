@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>TTA</title>
+        <meta charset="utf-8" />
+        <style type="text/css">
+            body {font-family : arial, serif; background-color : #E8F5E9;}
+            main {margin : 50px;}
+            section {background-color : white; margin : 2em; padding : 1em;}
+            header, footer {
+                text-align : center;
+                background-color : #424242;
+                padding : 20px;
+                color : white;
+            }
+            h1 {color : #E65100;}
+            div {position : relative; height : 200px; width : 200px; background-color : yellow; margin : auto;}
+            .translate{transform : translate(150px,-80px);}
+            .scale{transform : scale(0.8);}
+            .rotate{transform : rotate(50deg);}
+            .skew{transform : skew(-20deg,-60deg);}
+            .multiple{transform: matrix(1, 0, -2, 2, 125, -40);}
+            .transition{transition : all 5s;}
+            .transition:hover{width : 300px; height : 300px; background-color : cyan;}
+            .colors{
+                animation-name : colors;
+                animation-duration : 10s;
+                animation-delay : 2s;
+                animation-iteration-count : 10;
+                animation-direction : alternate-reverse;
+            }
+            @keyframes colors{
+                from{background-color : black; color : grey;}
+                20%{background-color : grey; color : white;}
+                40%{background-color : white; color : purple;}
+                60%{background-color : purple; color : cyan;}
+                80%{background-color : cyan; color : green;}
+                to{background-color : green; color : yellow;}
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Transform, transition et animation</h1>
+            <p>Découverte des propriétés transform, transition et animation</p>
+        </header>
+        <main>
+        <section id="transform">
+            <h2>Transform</h2>
+            <h3>Transform: translate</h3>
+            <div class="translate">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, magnam, fugiat, odio sequi dolorum dolor corrupti perspiciatis debitis dolores fugit dolorem assumenda harum libero quaerat vero saepe quis similique sunt.</div>
+            <h3>Transform: scale</h3>
+            <div class="scale">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, magnam, fugiat, odio sequi dolorum dolor corrupti perspiciatis debitis dolores fugit dolorem assumenda harum libero quaerat vero saepe quis similique sunt.</div>
+            <h3>Transform: rotate</h3>
+            <div class="rotate">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, magnam, fugiat, odio sequi dolorum dolor corrupti perspiciatis debitis dolores fugit dolorem assumenda harum libero quaerat vero saepe quis similique sunt.</div>
+            <h3>Transform: skew</h3>
+            <div class="skew">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, magnam, fugiat, odio sequi dolorum dolor corrupti perspiciatis debitis dolores fugit dolorem assumenda harum libero quaerat vero saepe quis similique sunt.</div>
+            <h3>Transform: multiple</h3>
+            <p>translate + scale + skew</p>
+            <div class="multiple">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, magnam, fugiat, odio sequi dolorum dolor corrupti perspiciatis debitis dolores fugit dolorem assumenda harum libero quaerat vero saepe quis similique sunt.</div>
+        </section>
+        <section id="transiton">
+            <h2>Transition</h2>
+            <p>survolez la zone avec votre souris</p>
+            <div class="transition">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, magnam, fugiat, odio sequi dolorum dolor corrupti perspiciatis debitis dolores fugit dolorem assumenda harum libero quaerat vero saepe quis similique sunt.</div>
+        </section>
+        <section id="animation">
+            <h2>Animation</h2>
+            <div class="colors">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, magnam, fugiat, odio sequi dolorum dolor corrupti perspiciatis debitis dolores fugit dolorem assumenda harum libero quaerat vero saepe quis similique sunt.</div>
+        </section>
+        </main>
+        <footer>
+            <img src="../img/logo-3wa.png" alt="Logo 3W Academy" />
+        </footer>
+    </body>
+</html>

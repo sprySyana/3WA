@@ -1,0 +1,27 @@
+body {font-family: "New Tegomin", Garamond, Times, serif;}
+
+header {
+    background-color: #263238;
+    color: aliceblue;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+
+main {position: relative; top: 10px;}
+
+img {max-width: 90%}
+
+.row {
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.col {
+    margin: 20px;
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+}

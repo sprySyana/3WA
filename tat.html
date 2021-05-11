@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>CSS TAT</title>
+        <meta charset="utf-8" />
+        <style type="text/css">
+            .animation1 {
+                position : relative;
+                width : 100px;
+                height : 100px;
+                background : grey;
+                border : 2px solid yellow;
+                animation-name : mymove1;
+                animation-duration : 10s;
+                animation-iteration-count : 10;
+            	animation-timing-function : ease;
+            	animation-delay : 2s;
+            	animation-direction : normal;
+            }
+            @keyframe mymove1{
+            	from {background : green;}
+            	to {background : cyan; border : 5px solid pink;}
+            }
+            .animation2{
+            	position : relative;
+            	width : 100px;
+            	height : 100px;
+            	background : red;
+            	border : 2px solid brown;
+            	animation : mymove2 10s ease 2s infinite normal;
+            }
+            @keyframes mymove2{
+            	from {background : green;}
+            	30% {background : red;}
+            	50% {background : pink;}
+            	90% {background : yellow}
+            	to{padding : 2em; color : pink; background : black}
+            }
+            .demo1{
+            	background : yellow;
+            	width : 200px;
+            	height : 200px;
+            	border : 2px solid pink;
+                transform : rotate(75deg);
+            }
+             .demo2 {
+                 background : blue;
+                 color : white;
+                 width : 300px;
+                 height : 100px;
+                 border : 5px dashed grey;
+                 transition : width 5s;
+             }
+            .demo2:hover{
+                width : 500px;
+                height : 200px;
+            }
+    
+        </style>
+    </head>
+    <body>
+        <div class="animation1">mymove1</div>
+        <hr><hr>
+        <div class="animation2">mymove2</div>
+        <hr><hr>
+        <div class="demo1">transformation : rotation</div>
+        <hr><hr>
+        <div class="demo2">transition : passez votre souris sur la zone</div>
+    </body>
+</html>

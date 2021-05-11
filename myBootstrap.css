@@ -1,0 +1,18 @@
+header, footer {
+    background-color : #424242;
+    padding : 1em;
+    text-align : center;
+    color : white;
+}
+#carouselExempleControls {
+    display : flex;
+    margin : 1em;
+    max-width : 100%;
+}
+.container{margin : auto;}
+.row {border : 5px solid red; margin : 1em;}
+.row > div {
+    border : 1px solid orange;
+    background-color : #E0F2F1;
+    margin : auto;
+}

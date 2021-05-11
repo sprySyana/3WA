@@ -9,6 +9,9 @@ Languages used : HTML, CSS + Bootstrap
     - utilisation d'une flexbox
   - mediaQueries
   - move academy
+  - archiDesign
+      - page d'acceuil
+      - page actualités
 - pages utilisant bootstrap
   - bootColumns
 - pages utilisant le CSS

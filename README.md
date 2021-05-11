@@ -11,10 +11,9 @@ Languages used : HTML, CSS + Bootstrap
   - move academy
 - pages utilisant bootstrap
   - bootColumns
-  - myBootsrap
 - pages utilisant le CSS
+  - tta
+  - tat
   - transition
-  - transformation
   - rotate
   - scale
-  - animation
